@@ -416,7 +416,7 @@ const Create = ({ marketplace }) => {
             </Form.Group>
             <Form.Control onChange={handleChange} name="title" id="title" size="lg" required type="text" placeholder="Name" />
             <Form.Control onChange={handleChange} name="description" id="description" size="lg" required as="textarea" placeholder="Description" />
-            <Form.Control onChange={handleChange} name="price" id="price" size="lg" required type="number" placeholder="Price in TRX" />
+            <Form.Control onChange={handleChange} name="price" id="price" size="lg" required type="number" placeholder="Price in CELO" />
             <div className="d-grid px-0">
               <Button onClick={handleEvent} variant="primary" size="lg">
                 Create NFT!
